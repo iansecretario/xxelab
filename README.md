@@ -2,6 +2,9 @@
 
 This virtual environment is a simple php web application that contains an example of an XML eXternal Entity vulnerability.
 
+## Pre Setup ## 
+
+On your kali/ubuntu machine run the docker.sh to install docker
 
 ## Docker ##
 
