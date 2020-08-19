@@ -6,7 +6,7 @@ This virtual environment is a simple php web application that contains an exampl
 
 This lab is designed to be used in [vagrant](https://www.vagrantup.com/). To get setup, first you need to clone this repo and then start vagrant.
 
-	$ git clone https://github.com/jbarone/xxelab.git
+	$ git clone https://github.com/iansecretario/xxelab.git
 	$ cd xxelab
 	$ vagrant up
 
@@ -18,7 +18,7 @@ Once the site is up and running you simple navigate your browser to [http://192.
 
 You can now run XXELab in a Docker container. Build the image:
 
-	$ git clone https://github.com/jbarone/xxelab.git
+	$ git clone https://github.com/iansecretario/xxelab.git
 	$ cd xxelab
 	$ docker build -t xxelab .
 
