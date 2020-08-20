@@ -2,9 +2,7 @@
 
 This virtual environment is a simple php web application that contains an example of an XML eXternal Entity vulnerability.
 
-## Pre Setup ## 
 
-On your kali/ubuntu machine run the docker.sh to install docker
 
 ## Docker ##
 
@@ -13,6 +11,10 @@ You can now run XXELab in a Docker container. Build the image:
 	 git clone https://github.com/iansecretario/xxelab.git
 	 cd xxelab
 	 docker build -t xxelab .
+
+## Pre Setup ## 
+
+On your kali/ubuntu machine run the docker.sh to install docker
 
 Run:
 
