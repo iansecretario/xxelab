@@ -2,8 +2,8 @@
 $file = $_GET['file'];
 
 /**
-* Unsafely include the file
-* Example - filename.php
+* The registration page includes confidential data that can be abused by adversaries
+*  This is a sample source code date that can be exfiltrated out of the target server
 */
 include('directory/' . $file);
 ?>
