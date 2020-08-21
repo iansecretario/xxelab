@@ -9,5 +9,6 @@ $tel = $info->tel;
 $email = $info->email;
 $password = $info->password;
 
+# source code exfiltration Guidem Registration site
 echo "Sorry, $email is already registered!";
 ?>
